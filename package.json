@@ -50,7 +50,7 @@
     "typescript": "^4.6.4"
   },
   "dependencies": {
-    "@pyle_of_mail/logger": "^2.0.5-2",
+    "@open-mail-archive/logger": "^1.0.0-4",
     "@supabase/postgrest-js": "^0.37.2",
     "dotenv": "^16.0.1"
   }
