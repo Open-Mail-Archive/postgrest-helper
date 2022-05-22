@@ -3,6 +3,8 @@ import {Logger} from '@open-mail-archive/logger';
 import 'dotenv/config';
 import {NoUrlInEnvError, NoKeyInEnvError} from './lib/errors';
 
+export {NoUrlInEnvError, NoKeyInEnvError};
+
 /**
  * Singleton wrapper for the PostgrestHelper.
  *
