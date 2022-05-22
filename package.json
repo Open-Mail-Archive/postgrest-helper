@@ -1,6 +1,6 @@
 {
   "name": "@open-mail-archive/postgrest-helper",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "Helper class designed to facilitate interacting with the Supabase PostgREST service.",
   "type": "module",
   "main": "dist/index.js",
