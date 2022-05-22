@@ -1,7 +1,7 @@
 import {PostgrestClient} from '@supabase/postgrest-js';
 import {Logger} from '@open-mail-archive/logger';
 import 'dotenv/config';
-import { NoUrlInEnvError, NoKeyInEnvError } from './lib/errors';
+import {NoUrlInEnvError, NoKeyInEnvError} from './lib/errors';
 
 /**
  * Singleton wrapper for the PostgrestHelper.
