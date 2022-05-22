@@ -1,3 +1,3 @@
-# <PACKAGE_NAME>
+# postgrest-helper
 
-<PACKAGE_DESCRIPTION>
+Helper class designed to facilitate interacting with the Supabase PostgREST service.

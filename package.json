@@ -1,7 +1,7 @@
 {
-  "name": "@open-mail-archive/<PACKAGE_NAME>",
+  "name": "@open-mail-archive/postgrest-helper",
   "version": "1.0.0",
-  "description": "<PACKAGE_DESCRIPTION>",
+  "description": "Helper class designed to facilitate interacting with the Supabase PostgREST service.",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -10,7 +10,6 @@
     "dist/**/*"
   ],
   "scripts": {
-    "init": "node scripts/init.js",
     "build": "tsc",
     "prod": "node ./dist/index.js",
     "clean": "rimraf dist",
@@ -25,15 +24,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Open-Mail-Archive/<REPO_NAME>.git"
+    "url": "git+https://github.com/Open-Mail-Archive/postgrest-helper.git"
   },
   "keywords": [],
   "author": "Mircea-Pavel ANTON (Michael Anthony)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Open-Mail-Archive/<REPO_NAME>/issues"
+    "url": "https://github.com/Open-Mail-Archive/postgrest-helper/issues"
   },
-  "homepage": "https://github.com/Open-Mail-Archive/<REPO_NAME>#readme",
+  "homepage": "https://github.com/Open-Mail-Archive/postgrest-helper#readme",
   "devDependencies": {
     "@types/jest": "^27.5.1",
     "@types/node": "^17.0.32",
