@@ -51,7 +51,7 @@
     "typescript": "^4.6.4"
   },
   "dependencies": {
-    "@open-mail-archive/logger": "^1.0.0-4",
+    "@open-mail-archive/logger": "^1.0.0-6",
     "@supabase/postgrest-js": "^0.37.2",
     "dotenv": "^16.0.1"
   }
