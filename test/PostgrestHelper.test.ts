@@ -1,6 +1,7 @@
+import {jest,beforeEach,describe,it,afterEach,expect} from '@jest/globals';
 import {PostgrestClient} from '@supabase/postgrest-js';
+
 import {PostgrestHelper, NoKeyInEnvError, NoUrlInEnvError} from '../src/index';
-import {jest} from '@jest/globals';
 
 beforeEach(() => {
   console.debug = jest.fn();
