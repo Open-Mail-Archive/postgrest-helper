@@ -38,13 +38,6 @@ jobs:
       - name: Bump prerelease version
         run: npm version prerelease --no-git-tag-version
 
-      - name: Commit new version
-        uses: EndBug/add-and-commit@v9
-        with:
-          push: true
-          author_name: Github Action
-          committer_name: Github Action
-
       - name: Build the project
         run: npm run build
 
@@ -52,3 +45,10 @@ jobs:
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Commit new version
+        uses: EndBug/add-and-commit@v9
+        with:
+          push: true
+          author_name: Github Action
+          committer_name: Github Action
